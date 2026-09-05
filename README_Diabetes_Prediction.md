@@ -24,7 +24,7 @@ Machine-learning models for identifying people at elevated risk of **diabetes or
 | Path | Description |
 | --- | --- |
 | [`Diabetes_prediction.ipynb`](Diabetes_prediction.ipynb) | Complete workflow: loading, cleaning, EDA, feature engineering, model selection, explainability, ensembling, and final evaluation. |
-| [`Data_Mining_Report-7.pdf`](Data_Mining_Report-7.pdf) | Full project report with methodology, results, discussion, references, and contribution overview. |
+| [`Data_Mining_Report-7.pdf`](Data_Mining_Report.pdf) | Full project report with methodology, results, discussion, references, and contribution overview. |
 | [`data_zip/LLCP2023.XPT.zip`](data_zip/LLCP2023.XPT.zip) | Compressed CDC BRFSS 2023 data in SAS XPORT format. |
 
 > **Dataset location:** The dataset is included in this repository under the [`data_zip`](data_zip/) folder. The notebook reads the compressed file from `data_zip/LLCP2023.XPT.zip` through its GitHub raw URL, so no separate manual download is required.
@@ -223,7 +223,7 @@ with zipfile.ZipFile(io.BytesIO(response.content)) as archive:
 
 ## Data source and references
 
-The project uses the **CDC Behavioral Risk Factor Surveillance System 2023** public-use dataset. Key methodological and clinical references are documented in the [full project report](Data_Mining_Report-7.pdf).
+The project uses the **CDC Behavioral Risk Factor Surveillance System 2023** public-use dataset. Key methodological and clinical references are documented in the [full project report](Data_Mining_Report.pdf).
 
 - [CDC BRFSS](https://www.cdc.gov/brfss/)
 - [CDC Type 2 diabetes risk factors](https://www.cdc.gov/diabetes/risk-factors/index.html)
